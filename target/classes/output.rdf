@@ -1,0 +1,21 @@
+<http://example.org/java#checkISBNNumber>
+        a       <http://example.org/java#Method> ;
+        <http://example.org/java#hasComment>
+                "No comment" ;
+        <http://example.org/java#hasParameters>
+                "[long number]" ;
+        <http://example.org/java#hasReturnType>
+                "boolean" ;
+        <http://example.org/java#hasSignature>
+                " static boolean checkISBNNumber(long number)" .
+
+<http://example.org/java#main>
+        a       <http://example.org/java#Method> ;
+        <http://example.org/java#hasComment>
+                " main() method start  " ;
+        <http://example.org/java#hasParameters>
+                "[String[] args]" ;
+        <http://example.org/java#hasReturnType>
+                "void" ;
+        <http://example.org/java#hasSignature>
+                "public static void main(String[] args)" .
